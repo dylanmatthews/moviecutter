@@ -5,10 +5,11 @@ import csv
 import re
 from unidecode import unidecode
 from datetime import datetime
+from os.path import expanduser
 
 # set the output file's destination
 # AMEND THIS TO CHANGE WHERE OUTPUT WILL GO
-writepath = os.path.expanduser('~/Downloads/moviecutter.csv')
+writepath = expanduser('~/Downloads/moviecutter.csv')
 
 # streaming services to check
 # key names are same as CanIStreamIt? for easier iteration
