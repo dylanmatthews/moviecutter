@@ -2,7 +2,7 @@
 					
 ### What is it?
 
-Moviecutter is a simple Python script that uses scraper APIs, created using [Kimono](http://kimonolabs.com) and Niels Lemmens's Python implementation of the [Can I Stream It? API](https://github.com/Bulv1ne/CanIStreamIt), which compiles streaming options for every movie which (a) received an 81 or higher on [Metacritic](http://www.metacritic.com/browse/movies/score/metascore/all?sort=desc&page=0) (b) is in the [Rotten Tomatoes Top 100 list](http://www.rottentomatoes.com/top/bestofrt/?category=0) or (c) is in the [Movie Review Query Engine (MRQE) top 100](http://www.mrqe.com/lists/100-best-films/mrqes-100-best-ranked-films). It then outputs a list of all qualifying movies, along with the relevant review aggregator score and streaming availability of each, into a CSV file for easy spreadsheet manipulation.
+Moviecutter is a simple Python script that uses scraper APIs — created using [Kimono](http://kimonolabs.com) and Niels Lemmens's Python implementation of the [Can I Stream It? API](https://github.com/Bulv1ne/CanIStreamIt) — to compile streaming options for every movie which (a) received an 81 or higher on [Metacritic](http://www.metacritic.com/browse/movies/score/metascore/all?sort=desc&page=0) (b) is in the [Rotten Tomatoes Top 100 list](http://www.rottentomatoes.com/top/bestofrt/?category=0) or (c) is in the [Movie Review Query Engine (MRQE) top 100](http://www.mrqe.com/lists/100-best-films/mrqes-100-best-ranked-films). It then outputs a list of all qualifying movies, along with the relevant review aggregator score and streaming availability of each, into a CSV file for easy spreadsheet manipulation.
 
 ### Dependencies
 
