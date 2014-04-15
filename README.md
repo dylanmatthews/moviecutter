@@ -1,7 +1,5 @@
 # Moviecutter
 				
-## UPDATE - the streaming data is no longer available. The app is mostly useful for comparing Metacritic and Rotten Tomatoes scores to each other.
-	
 ### What is it?
 
 Moviecutter is a simple Python script that combines Metacritic and Rotten Tomatoes scores.
